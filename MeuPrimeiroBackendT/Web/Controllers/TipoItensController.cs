@@ -39,6 +39,7 @@ namespace Web.Controllers
         // GET: TipoItens/Create
         public ActionResult Create()
         {
+            
             return View();
         }
 
