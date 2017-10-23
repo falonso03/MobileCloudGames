@@ -1,5 +1,8 @@
-﻿namespace Web.Models
+﻿using System;
+
+namespace Web.Models
 {
+    [Serializable]
     public class Item
     {
         public int ItemID { get; set; }
