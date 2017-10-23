@@ -149,6 +149,8 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ItensController.cs" />
+    <Compile Include="Controllers\TipoItensController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -194,6 +196,16 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\TipoItens\Create.cshtml" />
+    <Content Include="Views\TipoItens\Delete.cshtml" />
+    <Content Include="Views\TipoItens\Details.cshtml" />
+    <Content Include="Views\TipoItens\Edit.cshtml" />
+    <Content Include="Views\TipoItens\Index.cshtml" />
+    <Content Include="Views\Itens\Create.cshtml" />
+    <Content Include="Views\Itens\Delete.cshtml" />
+    <Content Include="Views\Itens\Details.cshtml" />
+    <Content Include="Views\Itens\Edit.cshtml" />
+    <Content Include="Views\Itens\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
